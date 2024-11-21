@@ -1,0 +1,37 @@
+name: pos_sibayar
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.3
+  meta: ^1.15.0
+  bloc: ^8.1.4
+  google_nav_bar: ^5.0.6
+  http: ^0.13.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.11.0
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+# Konfigurasi flutter_launcher_icons di luar bagian flutter
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo_sibayar.png" # Ganti dengan path gambar ikon kamu
